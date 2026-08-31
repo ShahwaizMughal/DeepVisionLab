@@ -1,0 +1,5 @@
+model,best_test_accuracy_pct,trainable_parameters,epochs,learning_rate,latency_ms_per_image,throughput_images_per_sec
+Baseline CNN (with augmentation),75.46,620810,10,0.001,0.364,2749.08
+Baseline CNN (without augmentation),77.56,620810,10,0.001,,
+ResNet-18 (from scratch),82.58,11181642,5,0.001,,
+ResNet-18 (ImageNet pretrained),94.54,11181642,5,0.0001,1.716,582.6

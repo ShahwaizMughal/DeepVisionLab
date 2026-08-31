@@ -1,0 +1,21 @@
+# Data
+data/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
